@@ -15,7 +15,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(new FileInputStream(PathFXML.pathbase() + "\\MainView.fxml"));
-        Scene scene = new Scene(root, 755, 546);
+        Scene scene = new Scene(root, 800, 600);
         stage.setTitle("Sistema Gerenciador de Pacientes");
         stage.setScene(scene);
         stage.show();
