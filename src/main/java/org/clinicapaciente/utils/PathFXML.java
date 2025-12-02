@@ -5,6 +5,6 @@ import java.nio.file.Paths;
 
 public class PathFXML {
     public static String pathbase() {
-        return Paths.get("src/main/java/org/provapoo/view").toAbsolutePath().toString();
+        return Paths.get("src/main/java/org/clinicapaciente/view").toAbsolutePath().toString();
     }
 }

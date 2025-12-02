@@ -14,9 +14,9 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader();
-        Parent root = fxmlLoader.load(new FileInputStream(PathFXML.pathbase() + "\\main-view.fxml"));
+        Parent root = fxmlLoader.load(new FileInputStream(PathFXML.pathbase() + "\\MainView.fxml"));
         Scene scene = new Scene(root, 755, 546);
-        stage.setTitle("Sistema de Gerenciamento de Clientes para uma Clínica!");
+        stage.setTitle("Sistema Gerenciador de Pacientes");
         stage.setScene(scene);
         stage.show();
     }
